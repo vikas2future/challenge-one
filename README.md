@@ -27,5 +27,6 @@ If you don’t already have them, install [Git](https://git-scm.com/downloads),
 - Make sure you have [node.js](https://nodejs.org/) installed version 5+
 - Make sure you have NPM installed version 3+
 - run `npm install` to install dependencies
+- Use [JSFiddle](https://jsfiddle.net/vikas2future/f0skfzey/) to test the javascript program.Initial data setup done with result displayed in console window under developer tools.
 - run `npm test` to run unit test using jasmine/nodeJS.
 
