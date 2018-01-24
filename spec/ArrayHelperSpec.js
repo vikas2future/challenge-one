@@ -1,8 +1,8 @@
 (()=>{
-    'use strict'
+'use strict'
 
     const arrHelperUtil = require('../ArrayHelper');
-
+    
     describe('Array Helper:', () => {
 
         describe('isString:', () => {

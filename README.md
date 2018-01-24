@@ -8,8 +8,8 @@ A javacript program which takes source array of objects and change all the prope
 For e.g. let var = [ { fName: 'tes-tFirst', lName: 'te--stLast' } ]. Here the intention is to transform 'tes-tFirst' and 'te--stLast' values.
 - If the source array consist of elements which are primitive types like string, number, boolean, undefined and null they will not be transformed. 
 - The javascript program will return the modified resultant array.
-- The ES6 syntax is been widely used.
-- The unit test are driven by Jasmine and nodeJS and does not require Karma test runner. This is to keep simplicity although in real world scenarios test runner like Karma are widely used.
+- The ES6 syntax is been widely used except export/import as jasmine/nodeJS does not support them by default.
+- The unit test are driven by Jasmine/nodeJS and does not require Karma test runner. This is to keep simplicity although in real world scenarios test runner like Karma is widely used.
 
 
 ## Tools

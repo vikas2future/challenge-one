@@ -1,7 +1,8 @@
 (()=>{
+'use strict'
 
-let regEx = /-/g;
-let newStr = '/';
+const REG_EX = /-/g;
+const NEW_STR = '/';
 
 /**
  * Checks if the value is a string
@@ -36,7 +37,7 @@ function parseObject(obj) {
     Object.keys(obj).forEach( key => {
         let value = obj[key];
 		if(isString(value)) {
-            obj[key] = obj[key].replace(regEx, newStr);
+            obj[key] = obj[key].replace(REG_EX, NEW_STR);
 		} else if(isObject(value)) {
 			//If the parsed value is still an object then call the function again(Recursive).
 			parseObject(value);
