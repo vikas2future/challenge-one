@@ -1,0 +1,14 @@
+{
+  "name": "array-helper",
+  "version": "1.0.0",
+  "description": "Array Helper Utility",
+  "main": "ArrayHelper.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "author": "Vikas Shivananjappa",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^2.9.0"
+  }
+}
